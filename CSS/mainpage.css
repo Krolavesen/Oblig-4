@@ -1,1 +1,215 @@
-Hei
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-family: Verdana, sans-serif;
+    font-weight: bold;
+    color: #190135;
+    text-decoration: none;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+p {
+    font-family: Verdana, sans-serif;
+    font-weight: regular;
+    color: #190135;
+    text-decoration: none;
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+
+h2 {
+    font-family: Verdana, sans-serif;
+    font-weight: bold;
+    color: #190135;
+    text-decoration: none;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.mainnav {
+    display: flex;
+    flex-grow: 1;
+    height: 70px;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    box-shadow: -1px 4px 20px 0px rgba(47,0,89,0.40);
+    border-bottom: 2px solid  #6515e5;
+    justify-content: space-between;
+
+    /*Gjør at menyen sitter fast*/ 
+    position: sticky;
+    top: 0;
+    z-index: 100; 
+}
+
+.menuitem {
+    font-family: Verdana, sans-serif;
+    font-weight: bold;
+    color: #6515e5;
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 0px 15px 0px 15px; 
+    border-right: 2px solid  #6515e5;
+}
+
+.menuitem:hover {
+    color: #cbaaff;
+}
+
+.menuitem:focus {
+    color: #cbaaff;
+}
+
+.kontaktitem{
+    padding: 15px 30px 15px 30px;
+    margin-right: 20px;
+    background-color: #6515e5;
+    border-radius: 10px;
+    font-family: Verdana, sans-serif;
+    font-weight: bold;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 0.75rem;
+}
+.kontaktitem:hover{
+    background-color: #cbaaff;  
+    color: #6515e5;
+}
+
+.logo img {
+    height: 30px;
+    padding-left: 20px;
+}
+
+.mainheader{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-image: linear-gradient(50deg, rgba(51, 0, 99, 0.87) 0%, rgba(47, 0, 92, 0.438) 100%), url("../bilder/Classroom.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+
+}
+
+.hjemskjerm {
+    height: 90%;
+    border-radius: 10px;
+
+}
+
+.tittelcontainer{
+    width: 400px;
+}
+
+.tittelcontainer h1, p {
+    color: white;
+}
+
+.problembox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ece1ff;
+    background-size: cover;
+    background-position: center;
+    min-height: 700px;
+}
+
+.imageframe{
+    display: flex;
+    justify-content: center;
+    height: 700px;
+    width: 400px;
+    min-width: 400px;
+    overflow: hidden;
+    margin-left: auto;
+    background-color: #ffffff;
+}
+
+.problemcontainer{
+    margin-left: auto;
+    max-width: 600px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.problemcontainer h1{
+    color: #6515e5;
+}
+
+.problemcontainer p{
+    color: #190135;
+}
+
+.imageframe img{
+    object-fit: contain;
+    height: 100%;
+}
+
+.losningbox {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 40px;
+    background-color: #340866;
+}
+.losningcontainer {
+    padding-bottom: 50px;
+    border-bottom: 2px solid #ffffff;
+}
+
+.losningcontainer p, h1 {
+    color: white;
+}
+
+.mockupbox{
+    display: flex;
+    flex-direction: row;
+    padding: 40px;
+    background-color: #340866;
+    justify-content: center;
+}
+
+.mockups{
+    width: 1200px;
+    max-width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    justify-content: center;
+}
+
+.mockupcontainer {
+    display: flex;
+    flex-direction: column;
+    margin: 20px; 
+    max-width: 220px;
+}
+
+.mockupcontainer img {
+    height: 400px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.mockupcontainer p, h2{
+    color: white;
+    text-align: center;
+    
+
+}
+.detlosningbox {
+
+}
+
+.kontaktbox {
+
+}
+
+.problemarticle {
+
+}
