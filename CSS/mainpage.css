@@ -160,6 +160,7 @@ h2 {
 .losningcontainer {
     padding-bottom: 50px;
     border-bottom: 2px solid #ffffff;
+    text-align:center;
 }
 
 .losningcontainer p, h1 {
